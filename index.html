@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Saeed-Hussain</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/8b64a0b6c3.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+</head>
+<body>
+
+	<div id="loader">
+		<div class="loader-text">HS.<span>CODES</span></div>
+	</div>
+
+
+	<!-- HEADER SECTION -->
+
+	<nav class="nav">
+		<p class="logo-text">HS<span>.CODES</span></p>
+		<ul id="sidemenu">
+			<li class="first"><a href="#header">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<i class="fas fa-times" onclick="closemenu()"></i>
+		</ul>
+		<i class="fas fa-bars" onclick="openmenu()"></i>
+		
+	</nav>
+
+	<div id="header" class="header">
+		<div class="container">
+			
+			<img class="header-img" src="images/phone-background.png" alt="">
+			<div class="header-text">
+				<p><span id="typed-text" class="typeed-text"></span></p>
+
+				<h2>Hi, I'm <span>Saeed Hussain</span></h2>
+				<p>Passionate about web development and 
+					software engineering. Currently pursuing my 
+					studies, I aim to grow as a professional software engineer.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- ABOUT SECTION -->
+
+	<div id="about" class="about">
+		<div class="container">
+			<h1 class="sub-title">About Me</h1>
+			<div class="row">
+				<div class="about-col-1">
+					<img class="abt-img" src="images/user.png">
+				</div>
+				<div class="about-col-2">
+					<p class="abt-p">I am a passionate web developer with experience in designing and building user-friendly,
+					 	responsive websites. I specialize in front-end and back-end development, ensuring seamless
+					  functionality and visually appealing interfaces. My expertise includes HTML, CSS, JavaScript, 
+					 and modern frameworks, allowing me to create dynamic web applications tailored to user needs.</p>
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('Experiance')">Experiance</p>
+						<p class="tab-links" onclick="opentab('Education')">Education</p>
+					</div>
+					<div class="tab-contents active-tab" id="skills">
+						<ul>
+							<li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+							<li><span>Web Development</span><br>Web App Development</li>
+							<li><span>Database</span><br>Database Admin In SQL</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="Experiance">
+						<ul>
+							<li><span>2025 - Current</span><br>UI/UX Design Training at TU-Bhakkar</li>
+							<li><span>2023 - 2025</span><br>Internship at BISM Software house Bhakkar</li>
+							<li><span>2022 - 2023</span><br>Freelancing and Side Projects</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="Education">
+						<ul>
+							<li><span>2021</span><br>Matric from GHMS-Bhakkar</li>
+							<li><span>2023</span><br>Intermediate from GDC-Bhakkar</li>
+							<li><span>2025 - Current</span><br>BSSE at Thal University Bhakkar</li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<!-- SERVUCES SECTION -->
+
+	<div class="services" id="services">
+		<div class="container">
+			<h1 class="sub-title">My Services</h1>
+			<div class="services-list">
+				<div class="service1">
+					<i class="fa-solid fa-code"></i>
+					<h2>Web Design</h2>
+					<p>I create visually appealing and responsive websites that provide an engaging user experience, using the latest web technologies.</p>
+				</div>
+				<div class="service1">
+					<i class="fa-solid fa-crop"></i>
+					<h2>UI/UX Design</h2>
+					<p>Designing user-friendly interfaces with a focus on aesthetics and functionality to enhance user interaction and satisfaction.</p>
+				</div>
+				<div class="service1">
+					<i class="fa-solid fa-database"></i>
+					<h2>DBMS</h2>
+					<p>Managing and structuring databases efficiently to ensure smooth data handling, security, and optimized performance.</p>
+				</div>
+				<div class="service1">
+					<i class="fa-brands fa-github"></i>
+					<h2>Github</h2>
+					<p>Using GitHub effectively to manage code versions, collaborate securely, and ensure streamlined development and performance.</p>
+				</div>
+				<div class="service1">
+					<i class="fa-solid fa-mobile-screen-button"></i>
+					<h2>Responsive Design</h2>
+					<p>Ensuring seamless performance across all devices with mobile-first design strategies and responsive frameworks.</p>
+				</div>
+				<div class="service1">
+					<i class="fa-solid fa-shield-halved"></i>
+					<h2>Web Security</h2>
+					<p>Implementing best practices to protect websites from vulnerabilities and ensure data integrity, privacy, and user trust.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- PORTFOLIO SECTION -->
+
+	<div id="portfolio" class="portfolio">
+		<div class="container">
+			<h1 class="sub-title">My work</h1>
+			<div class="work-list">
+				<div class="work delay1">
+					<img src="images/work-1.png">
+					<div class="layer layer1">
+						<h3>CARA - Online Shopping Store</h3>
+						<p>This website connects you to the world of all type of products.
+						Visit it on your mobile or desktop.</p>
+						<a href="https://saeed-hussain.github.io/cara-online-store/index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work delay2">
+					<img src="images/work-2.png">
+					<div class="layer layer2">
+						<h3>QCFAE - Coffee shop</h3>
+						<p>This website connects you to all Beans of coffee.
+						Visit it on your mobile or desktop.</p>
+						<a href="https://saeed-hussain.github.io/coffee-shop/"><i class="fa-solid fa-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work delay3">
+					<img src="images/work-3.png">
+					<div class="layer layer3">
+						<h3>TravelDream - Travel Agency Website</h3>
+						<p>This website connects you to the world of travllers arround the globe.
+						Visit it on your mobile or desktop.</p>
+						<a href="https://saeed-hussain.github.io/Travel-Agency/"><i class="fa-solid fa-up-right-from-square"></i></a>
+					</div>
+				</div>
+				<div class="work delay4">
+					<img src="images/work-4.png">
+					<div class="layer layer4">
+						<h3>Analog Clock - Time Here</h3>
+						<p>Analog Clock watch using javascript with your own time.
+						Visit it on your mobile or desktop.</p>
+						<a href="https://saeed-hussain.github.io/anlog-clock/"><i class="fa-solid fa-up-right-from-square"></i></a>
+					</div>
+				</div>
+				
+			</div>
+			<a href="https://github.com/Saeed-Hussain?tab=repositories" class="btn">See More</a>
+		</div>
+	</div>
+
+	<!-- CONTACT SECTION -->
+
+	<div id="contact" class="contact">
+		<div class="container">
+			<h1 class="sub-title">Contact Me</h1>
+			<div class="row">
+				<div class="contact-left">
+					<p>
+						<a href="mailto:hussainjiskani574@gmail.com" style="text-decoration: none; color: inherit;">
+						  <i class="fa-solid fa-paper-plane"></i>click for email
+						</a>
+					  </p>
+					  
+					  <p>
+						<!-- For WhatsApp -->
+						<a href="https://wa.me/923167122831" target="_blank" style="text-decoration: none; color: inherit;">
+						  <i class="fa-solid fa-phone"></i>click For message
+						</a>
+					  
+						
+					  </p>
+					<div class="social-icons">
+						<a href="https://www.facebook.com/profile.php?id=100095275393216" target="_blank" rel="noopener noreferrer">
+							<i class="fa-brands fa-facebook"></i>
+						  </a>
+						<a href="https://www.instagram.com/saeed_hussain77/"><i class="fa-brands fa-instagram"></i></a>
+						<a href="https://www.linkedin.com/in/saeed-hussain-502b61301/"><i class="fa-brands fa-linkedin"></i></a>
+						<a href="https://github.com/Saeed-Hussain/"><i class="fa-brands fa-github"></i></a>
+					</div>
+					<a href="images/saeed-cv.pdf" download class="btn btn2"><i class="fa-solid fa-download" style="padding: 0 10px;"></i>Download CV</a>
+				</div>
+				<div class="contact-right">
+					<form name="submit-to-google-sheet">
+						<input type="text" name="Name" placeholder="Your Name" required>
+						<input type="email" name="Email" placeholder="Your Email" required>
+						<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+						<button type="submit" class="btn btn2">Submit</button>
+					</form>
+					<span id="msg" class="msg"></span>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>© Saeed Hussain. All rights reserved.</p>
+		</div>
+	</div>
+
+
+
+
+	
+
+
+
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
