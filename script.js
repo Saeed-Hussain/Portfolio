@@ -93,6 +93,7 @@ var typed = new Typed('#typed-text', {
 ScrollReveal().reveal(".logo-text, .nav i", {
     ...scrollRevealOption,
     origin: "top",
+    delay: 1500,
     interval: 100,
 });
 
@@ -101,12 +102,14 @@ ScrollReveal().reveal(".nav ul li", {
 	...scrollRevealOption,
 	origin: "top",
 	interval: 100,
+	delay: 1500,
   });
   
   ScrollReveal().reveal(".header-img", {
     ...scrollRevealOption,
 	origin: "top",
     interval: 100,
+	  delay: 1500,
 });
 
 
@@ -114,6 +117,7 @@ ScrollReveal().reveal(".header-text", {
     ...scrollRevealOption,
 	origin: "bottom",
     interval: 100,
+	delay: 1500,
 });
 
 ScrollReveal().reveal(".abt-img", {
